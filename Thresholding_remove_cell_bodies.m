@@ -10,7 +10,7 @@ thresh_level = 0.5;
 min_object_size = 2; % made obsolete by the lines below
 % range of object sizes to be removed with bwareaopen
 LB = 5; % remove objects smaller than 2 px in area
-UB = 250; % remove objects larger than 50 px in area
+UB = 250; % remove objects larger than 250 px in area
 
 %% *** ASK WHETHER SHOULD USE DEFAULT PARAMETERS ***
 usedefault = questdlg(strcat('Use default settings (thresh_level = ',num2str(thresh_level),...
